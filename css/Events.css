@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+}
+.navbar .navbar-brand img {
+  width: 150px;
+  height: 80px;
+}
+.navbar .nav-link {
+  margin-left: 14px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Cairo", sans-serif;
+}
+.navbar .nav-link:hover {
+  color: #c08852;
+  border-bottom: solid 2px #c08852;
+}
+
+.icon-contact {
+  position: fixed;
+  right: 10px;
+  top: 150px;
+}
+.icon-contact i {
+  height: 40px;
+  width: 40px;
+  background-color: #c08852;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.blog {
+  padding: 20px 0;
+}
+
+.blog h2 {
+  font-family: "Cairo", sans-serif;
+  font-size: 37px;
+  margin: 15px 0 10px;
+}
+
+.blog h2 span {
+  color: #c08852;
+}
+
+.blog .data .data_inner {
+  margin-top: 10px;
+  position: relative;
+}
+
+.blog .data .blog_item_inner {
+  background-color: #f6fafd;
+  padding: 10px;
+}
+
+.blog .data img {
+  height: 250px;
+  width: 100%;
+}
+
+.blog .data .data_inner .blog_date {
+  position: absolute;
+  top: 417px;
+}
+
+.blog .data .data_inner .blog_date span {
+  padding: 10px 20px 10px 10px;
+  background-image: linear-gradient(to right, #d77a1a, #d5a16c);
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+}
+
+.blog .data .data_inner h4 {
+  padding: 25px 0 10px;
+  font-family: "Cairo", sans-serif;
+}
+
+.blog .data .data_inner p {
+  color: rgb(112, 112, 112);
+  font-size: 15px;
+}
+
+.blog .data .data_inner button {
+  padding: 8px 30px;
+  background-color: #c08852;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+}
+
+@media (max-width: 576px) {
+  .blog .data .data_inner {
+    margin-top: 40px;
+  }
+  .blog .data img {
+    height: 250px;
+    width: 100%;
+  }
+  .blog .data .data_inner .blog_date {
+    position: absolute;
+    top: 239px;
+  }
+}
+@media (min-width: 576px) {
+  .blog .data .data_inner {
+    margin-top: 40px;
+  }
+  .blog .data img {
+    height: 250px;
+    width: 100%;
+  }
+  .blog .data .data_inner .blog_date {
+    position: absolute;
+    top: 240px;
+  }
+}
+@media (min-width: 768px) {
+  .blog .data .data_inner {
+    margin-top: 40px;
+  }
+  .blog .data img {
+    height: 250px;
+    width: 100%;
+  }
+  .blog .data .data_inner .blog_date {
+    position: absolute;
+    top: 238px;
+  }
+}
+@media (min-width: 992px) {
+  .blog .data .data_inner {
+    margin-top: 40px;
+  }
+  .blog .data img {
+    height: 250px;
+    width: 100%;
+  }
+  .blog .data .data_inner .blog_date {
+    position: absolute;
+    top: 238px;
+  }
+}
+@media (min-width: 1200px) {
+  .blog .data .data_inner {
+    margin-top: 40px;
+  }
+  .blog .data img {
+    height: 250px;
+    width: 100%;
+  }
+  .blog .data .data_inner .blog_date {
+    position: absolute;
+    top: 238px;
+  }
+}
+.pagination-offer {
+  margin-top: 10px;
+  direction: ltr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c08852 !important;
+}
+
+footer {
+  margin-top: 10px;
+  padding: 30px 0;
+  background-color: #fbfbfb;
+  color: #000;
+}
+footer h2 {
+  padding: 0px 0 10px;
+  font-size: 25px;
+}
+footer p {
+  font-size: 15px;
+  color: #3c4867;
+}
+footer h3 {
+  padding: 5px 30px;
+  font-size: 20px;
+}
+footer h4 {
+  color: #c08852;
+  padding: 10px 0;
+}
+footer .footer-data h3 {
+  padding: 0 0 13px;
+}
+footer .footer-data h6 {
+  padding: 5px 10px;
+  color: #3c4867;
+  font-size: 15px;
+}
+footer .footer-data span {
+  font-weight: bold;
+  color: #2f3f65;
+}
+footer .footer-icon i {
+  background-color: #c08852;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+footer .footer-icon i:hover {
+  border: solid 1px #c08852;
+  color: #d77a1a;
+  background-color: #fff;
+}
+footer ul {
+  cursor: pointer;
+}
+footer ul li {
+  list-style: none;
+  padding: 5px 0;
+  color: #3c4867;
+}
+footer ul li i {
+  color: #c08852;
+  padding-left: 7px;
+}
+
+.copy-right {
+  background-color: #d9d9d9;
+  text-align: center;
+  padding: 0 0 10px;
+}
+.copy-right p {
+  padding: 30px;
+  color: #535353;
+  font-size: 18px;
+}
+
+.toTop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #c08852;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  display: none;
+}/*# sourceMappingURL=Events.css.map */

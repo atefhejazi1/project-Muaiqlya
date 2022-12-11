@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+$black_color: #000;
+$white_color: #fff;
+// $primary_color: #d77a1a;
+$primary_color: #c08852;
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+.navbar {
+  background-color: #F8F9FA;
+  .navbar-brand {
+    img {
+      width: 150px;
+      height: 80px;
+    }
+  }
+
+  .nav-link {
+    margin-left: 14px;
+    font-size: 15px;
+    font-weight: bold;
+    color: $black_color;
+    font-family: "Cairo", sans-serif;
+
+    &:hover {
+      color: $primary_color;
+      border-bottom: solid 2px $primary_color;
+    }
+  }
+}
+
+.icon-contact{
+  position: fixed;
+  right: 10px;
+  top: 180px;
+  i{
+      height: 40px;
+      width: 40px;
+      background-color: $primary_color;
+      color: $white_color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      border-radius: 50%;
+      margin-top: 10px;
+  }
+}
+
+
+
+.form-services {
+    padding: 50px 0;
+    h2 {
+        font-family: "Alexandria", sans-serif;
+        font-family: "Amiri", serif;
+        font-family: "Cairo", sans-serif;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-right: 50px;
+    }
+    span {
+        color: $primary_color;
+    }
+
+    form {
+        text-align: center;
+        padding: 10px 0 50px;
+        input {
+            width: 45%;
+            padding: 10px 25px;
+            margin: 12px 10px;
+            border-radius: 5px;
+            border: solid 1px $primary_color;
+        }
+        .input-masseage {
+            width: 92%;
+            padding: 10px 25px 100px;
+            margin: 12px 10px;
+            border-radius: 5px;
+            border: solid 1px $primary_color;
+        }
+        select{
+            width: 21.8%;
+            padding: 10px 25px;
+            margin: 12px 10px;
+            color: #75758B;
+            border-radius: 5px;
+            border: solid 1px $primary_color;
+        }
+        button {
+            background-color: $primary_color;
+            color: $black_color;
+            width: 92%;
+            font-weight: bold;
+            border-radius: 5px;
+            border: solid 1px $primary_color;
+            padding: 10px 25px;
+            margin-top: 10px;
+
+            &:hover {
+                background-color: $black_color;
+                color: $white_color;
+                border: solid 1px $black_color;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 10px;
+    padding: 30px 0;
+    background-color: #fbfbfb;
+    color: #000;
+    h2 {
+      padding: 0px 0 10px;
+      font-size: 25px;
+    }
+    p {
+      font-size: 15px;
+      color: #3c4867;
+    }
+    h3 {
+      padding: 5px 30px;
+      font-size: 20px;
+    }
+    h4 {
+      color: $primary_color;
+      padding: 10px 0;
+    }
+    .footer-data h3 {
+      padding: 0 0 13px;
+    }
+    .footer-data h6 {
+      padding: 5px 10px;
+      color: #3c4867;
+      font-size: 15px;
+    }
+    .footer-data span {
+      font-weight: bold;
+      color: #2f3f65;
+    }
+    .footer-icon {
+      i {
+        background-color: $primary_color;
+        color: $white_color;
+        border-radius: 50%;
+        padding: 10px;
+        margin-left: 5px;
+        cursor: pointer;
+        &:hover {
+          border: solid 1px $primary_color;
+          color: #d77a1a;
+          background-color: $white_color;
+        }
+      }
+    }
+    ul {
+      cursor: pointer;
+      li {
+        list-style: none;
+        padding: 5px 0;
+        color: #3c4867;
+        i {
+          color: $primary_color;
+          padding-left: 7px;
+        }
+      }
+    }
+  }
+  
+  .copy-right {
+    background-color: #d9d9d9;
+    text-align: center;
+    padding: 0 0 10px;
+    p {
+      padding: 30px;
+      color: #535353;
+      font-size: 18px;
+    }
+  }
+  
+  .toTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: $primary_color;
+    color: $white_color;
+    padding: 10px 15px;
+    border-radius: 50%;
+    display: none;
+  
+  }
