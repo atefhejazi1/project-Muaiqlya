@@ -23,6 +23,10 @@ body {
   border-bottom: solid 2px #c08852;
 }
 
+.carousel img {
+  height: 80vh;
+}
+
 .hero-section {
   padding: 40px 0;
 }

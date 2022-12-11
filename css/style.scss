@@ -30,7 +30,11 @@ body {
     }
   }
 }
-
+.carousel {
+  img {
+    height: 80vh;
+  }
+}
 .hero-section {
   padding: 40px 0;
   .hero-section-data {
